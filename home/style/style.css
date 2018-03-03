@@ -92,7 +92,12 @@ line-height: .75;
 
 /*************** Larg Devices only *************/
 @media(min-width: 1200px){
-
+	 .jumbotron{
+		background: url('../img/j1200.jpg') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
 }
 
 /*************** Mediam Devices only *************/
@@ -103,11 +108,24 @@ line-height: .75;
 	height: 100px;
 	margin: 5px 5px 5px 0;
   }
+/** Small Devices only **/
+    .container .jumbotron{
+		background: url('../img/j992.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
 }
 
 /*************** Small Devices only *************/
 
 @media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron{
+		background: url('../img/j768.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
 
 }
 
@@ -138,6 +156,26 @@ line-height: .75;
 	#collapsable-nav a span{
 		font-size: 1em;
 		margin-right: 5px;
+
+	}
+	#call-btn > a{
+		font-size:1.5em;
+		display: block;
+		margin:0 20px;
+		padding:10px;
+		border: 2px solid #fff;
+		background-color:#f6b319;
+		color:#951c49;
+		font-family: 'Russo One', sans-serif;
+
+	}
+
+	#xs-deliver{
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		font-family: 'Russo One', sans-serif;
 
 	}
 }
