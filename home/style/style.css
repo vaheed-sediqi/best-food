@@ -230,3 +230,12 @@ line-height: .75;
 		margin:0 auto 15px;
 	}
 }
+
+/******Super Extra Small *************/
+@media (max-width: 479px){
+	/**HOME PAGE**/
+	#menu-tile, #special-tile{
+		width: 200px;
+		margin:0 auto 15px;
+	}
+}
