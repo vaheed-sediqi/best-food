@@ -90,6 +90,46 @@ line-height: .75;
 	margin-top: -30px;
 }
 
+/*************** END OF HEADER *************/
+
+/*************** HOME PAGE *************/
+#menu-tile, #special-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+	background: url('../img/menu.jpg') no-repeat;
+	background-position: center;
+}
+
+#special-tile{
+	background: url('../img/special.jpg') no-repeat;
+	background-position: center;
+}
+
+#special-tile span, #menu-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+
 /*************** Larg Devices only *************/
 @media(min-width: 1200px){
 	 .jumbotron{
@@ -177,5 +217,16 @@ line-height: .75;
 		text-transform: uppercase;
 		font-family: 'Russo One', sans-serif;
 
+	}
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+
+	#menu-tile, #special-tile{
+		width: 360px;
+		margin:0 auto 15px;
 	}
 }
